@@ -16,9 +16,13 @@ accordingly.
 Classes
 
 Observer Interface: Defines the priceUpdate() method for receiving updates.
+
 Subject Interface: Defines methods to add, remove, and notify observers.
+
 CryptoCurrency: The concrete subject that manages observers and notifies them of price changes.
+
 Binance, GateIO, MEXC: Concrete observer classes that implement the Observer interface.
+
 
 How It Works
 
